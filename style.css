@@ -1,0 +1,51 @@
+/* Reset dasar dan font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+/* Tampilan Card UI */
+.card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    min-width: 300px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Tampilan Tombol */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
